@@ -13,7 +13,7 @@ The Tea Cozy project is a Codecademy project designed to help learners practice 
 - CSS
 
 ## Live Demo
-The project is hosted on GitHub Pages and can be viewed [here]().
+The project is hosted on GitHub Pages and can be viewed [here](https://j-m-nichols.github.io/TeaCozy/).
 
 ## Contributing
 Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
