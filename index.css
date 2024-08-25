@@ -1,0 +1,129 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+    background-color: black;
+}
+body{
+    opacity: 0.75;
+}
+
+header{
+    padding: 0 10px;
+    height: 69px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    z-index: 1;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    font-size: 0.75em;
+}
+
+header a:link, header a:visited{
+    color: white;
+}
+
+header a:hover, header a:active{
+    color: lightblue;
+}
+
+main{
+    margin-top: 69px;
+    padding: 0 50px;
+}
+
+#mission{
+    background-image: url('./images/img-mission-background.jpg');
+    height: 700px;
+    align-content: center;
+    background-size: cover;
+    background-position-y: center;
+}
+
+#mission article{
+    background-color: black;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+#mission article h4{
+    font-size: 0.8em;
+}
+
+#featuredTea{
+    padding: 25px 100px;
+}
+
+#featuredTea h2, #featuredTea p{
+    margin: 25px;
+}
+
+#featuredTea article{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#locations{
+    min-height: 500px;
+    background-image: url('./images/img-locations-background.jpg');
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position-y: center;
+    padding: 25px;
+}
+
+#locations section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+#locations section .location{
+    width: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+footer{
+    padding: 20px;
+}
+
+footer #contact{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer #copyright{
+    padding-top: 25px;
+    text-align: left;
+}
